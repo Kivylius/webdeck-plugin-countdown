@@ -95,11 +95,11 @@ function _object_spread_props(target, source) {
 }
 
 
-/* --- ❶  Manifest --------------------------------------------------------- */  var manifest = {
+ var manifest = {
     version: 1,
     bespoke: true
 };
-/* --- ❷  Key-drawing runtime --------------------------------------------- */  var init = function(param) {
+ var init = function(param) {
     var drawKey = param.drawKey, getConfig = param.getConfig;
     var render = function() {
         var _ref = getConfig() || {}, targetDate = _ref.targetDate, label = _ref.label;
@@ -137,7 +137,7 @@ function _object_spread_props(target, source) {
         window.removeEventListener("webdeck-plugin-countdown:update", render);
     };
 };
-/* --- ❸  Settings panel --------------------------------------------------- */ var App = function(param) {
+var App = function(param) {
     var _param_config = param.config, config = _param_config === void 0 ? {} : _param_config, setConfig = param.setConfig;
     var _config_targetDate = config.targetDate, targetDate = _config_targetDate === void 0 ? "" : _config_targetDate, _config_label = config.label, label = _config_label === void 0 ? "" : _config_label;
     // live preview in sidebar while editing

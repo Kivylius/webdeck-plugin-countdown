@@ -1,12 +1,10 @@
 import React, { useEffect } from "react";
 
-/* --- ❶  Manifest --------------------------------------------------------- */
 export const manifest = {
   version: 1,
   bespoke: true, // we’ll paint the key ourselves
 };
 
-/* --- ❷  Key-drawing runtime --------------------------------------------- */
 export const init = ({ drawKey, getConfig }) => {
   const render = () => {
     const { targetDate, label } = getConfig() || {};
@@ -61,7 +59,6 @@ export const init = ({ drawKey, getConfig }) => {
   };
 };
 
-/* --- ❸  Settings panel --------------------------------------------------- */
 const App = ({ config = {}, setConfig }) => {
   const { targetDate = "", label = "" } = config;
 

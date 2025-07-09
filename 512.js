@@ -1,4 +1,4 @@
-(self['webpackChunkwebdeck_plugin_template'] = self['webpackChunkwebdeck_plugin_template'] || []).push([["512"], {
+(self['webpackChunkwebdeck_plugin_countdown'] = self['webpackChunkwebdeck_plugin_countdown'] || []).push([["512"], {
 "408": (function (__unused_webpack_module, exports) {
 /**
  * @license React

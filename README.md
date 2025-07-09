@@ -1,8 +1,6 @@
-# 🔌 webdeck-plugin-template
+# 🔌 webdeck-plugin-countdown
 
-This is a starting repo to create plugins for the webdeck web app. Everything is set up in this template to get started. Press the `Use this Template` to create a new plugin.
-
-- ⭐ [How to use this template](https://github.com/webdeckjs/webdeck/wiki/How-to-create-a-new-Plugin)
+This plugin allows you to set a countdown to a specific day!
 
 ## Usage
 
